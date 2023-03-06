@@ -1,0 +1,121 @@
+﻿QestionID,CourseID,Question,ModelAnswerChar
+1,1,What is the full form of SQL?,A
+2,1,"Which is the subset of SQL commands used to manipulate Oracle Database structures, including tables?",A
+3,1,Which operator performs pattern matching?,B
+4,1,What operator tests column for the absence of data?,C
+5,1,"In SQL, which command(s) is(are) used to change a table's storage characteristics?",A
+6,1,"In SQL, which of the following is not a data definition language commands?",B
+7,1,"In SQL, which command is used to SELECT only one copy of each set of duplicable rows",A
+8,1,A command that lets you change one or more fields in a record is,B
+9,1,Which of the SQL statements is correct?,B
+10,1,The FROM SQL clause is used to...,A
+11,1,Which SQL keyword is used to retrieve only unique values?,C
+12,1,Which SQL keyword is used to retrieve a maximum value?,B
+13,1,What is a view?,B
+14,1,Which of the following SQL commands is used to retrieve data?,C
+15,1,Which of the following is a SQL aggregate function?,A
+16,1,Which SQL statement is used to update data in a database?,B
+17,1, Which SQL statement is used to delete data FROM a database?,C
+18,1,Which SQL keyword is used to sort the result-set?,C
+19,1,Which of the following group functions ignore NULL values?,C
+20,1,Which of the following must be enclosed in double quotes?,B
+21,2,How many Bytes are stored by ‘Long’ Data type in C# .net?,A
+22,2,Choose “.NET class” name from which data type “UInt” is derived?,B
+23,2,Correct Declaration of Values to variables ‘a’ and ‘b’?,C
+24,2,"Arrange the following data type in order of increasing magnitude sbyte, short, long, int.",B
+25,2,Which data type should be more preferred for storing a simple number like 35 to improve execution speed of a program?,A
+26,2,"Correct way to assign values to variable ‘c’ when int a=12, float b=3.5, int c;",C
+27,2,Default Type of number without decimal is?,C
+28,2,Select a convenient declaration and initialization of a floating point number:,C
+29,2,umber of digits upto which precision value of float data type is valid?,B
+30,2,Valid Size of float data type is?,C
+31,2,Correct way to define a value 6.28 in a variable ‘pi’ where value cannot be modified?,C
+32,2,Minimum and Maximum range of values supported by ‘float’ data type are?,C
+33,2,The Default value of Boolean Data Type is?,C
+34,2,The ‘ref’ keyword can be used with which among the following?,A
+35,2,"To implement delegates, the necessary condition is?",A
+36,2,"Suppose a Generic class called as SortObjects is to be made capable of sorting objects of any type(integer, single, byte etc). Then, which of the following programming constructs is able to implement the comparison function?",C
+37,2,"To generate a simple notification for an object in runtime, the programming construct to be used for implementing this idea?",C
+38,2,Choose the incorrect statement among the following about the delegate?,C
+39,2,Which of the following is an incorrect statement about delegate?,B
+40,2,Choose the incorrect statement about delegates?,A
+41,3, Contains reference data such as descriptive attributes,C
+42,3,What is the recommend method to share your reports?,A
+43,3,What symbol would you use for multiplication in Power BI in a DAX formula?,C
+44,3,What is the SQL expression used to count the values in a table?,B
+45,3,Type of data modeling in Power BI that Uses Data Analysis Expressions and similar to Excel formulas,B
+46,3,Which of the following tools let you shape data sources?,C
+47,3,A customer may purchase 1 or many products. So the relationship between the customer table and the products table will be,A
+48,3,"Sometimes, referred to as Power BI online",B
+49,3,Creates the connection between Power BI cloud-based data and the data source located on-premises,C
+50,3,Calculate a result from an expression formula and the result can only be viewed in the visualization,C
+51,3,"A collection of software services, apps, and connectors to turn unrelated sources of data into coherent insights",A
+52,3,A function that can only work on numeric fields is,B
+53,3,Which is used to calculate the data in each row,C
+54,3,Contains transactional data or facts of a business process,A
+55,3,Which of these values would be matched using the syntax LIKE “%apple”,C
+56,3,What are the group of data sources can Power BI connect to?,A
+57,3,What DAX function can be used to return a value in a column if a condition is met?,A
+58,3,What expression is used to indicate the table where the values would be searched from?,B
+59,3,What is the SQL command to return the values from a table?,A
+60,3,What is the Power Bi file Format?,C
+61,3,A collection of data that you import or connect to,C
+62,4,I’ve put on ______. I eat too many cakes.,C
+63,4,Put your suitcase up on the luggage ______.,C
+64,4,You could hear the crowd shouting in the local football ______.,A
+65,4,That’ll ______ children! Stop shouting!,A
+66,4,I can’t tell you now. I’ll ______ you know later.,B
+67,4,Give me a ______ some time. You know my phone number.,C
+68,4,The bus was so ______ that we couldn’t all get on.,A
+69,4,We have a ______ climate so the winters are never very cold.,C
+70,4,It’s so ______ in here. Don’t you ever clean this room?,C
+71,4,If you ask a ______ price for your car. I’m sure you’ll sell it.,C
+72,4,"No, don’t wear blue. It doesn’t ______ you.",C
+73,4,The ______ climbed up the tree and we couldn’t see it any more.,C
+74,4,"Can you ______ me the time, please?",B
+75,4,Do you know how ______ it is from Ashgabat to Mary? It’s 370 km.,C
+76,4,"Can I ______ your phone, please? I must call my parents.",B
+77,4,Don’t go. I’m going to ______ some coffee.,A
+78,4,I am ______ my wife to drive a car.,C
+79,4,I had to keep my son home from school today because he had a ______ of 38.,C
+80,4,When we were in Spain last year we ______ at a wonderful hotel overlooking the beach.,A
+81,4,Is there anything ______ you’d like me to get you?,A
+82,5,Communication is a non-stop______________.,B
+83,5,Communication is a part of ________ skills.,A
+84,5,The _______________ is the person who transmits the message.,C
+85,5,_____________ is the person who notices and decodes and attaches some meaning to a message.,A
+86,5,Message is any signal that triggers the response of a _________,A
+87,5,The response to a sender's message is called _________,B
+88,5,___________ context refers to the relationship between the sender and the receiver,A
+89,5,___________ context refers to the similarity of backgrounds between the sender and the receiver.,C
+90,5,_________ refers to all these factors that disrupt the communication.,B
+91,5,Environmental barriers are the same as ______ noise.,C
+92,5,Our dress code is an example of _____________ communication.,B
+93,5,Communication strengthens _______ & ______________ relationship is an organization.,B
+94,5,"_______________ communication includes tone of voice body language, facial expressions etc.",A
+95,5,"Letter, e-mail telephone are examples of __________",C
+96,5,Understanding __________different parts of speech forms the base of leaning grammar,B
+97,5,It is of paramount importance that one need to construct a __________sentence in the day to day affairs,B
+98,5,A__________way be defined as the name of a person place or thing,B
+99,5,According to hoben communication is the _____ nituchange of thought or idea.,C
+100,5,The person who transmits the message is called the ____ ,A
+101,5,Proper nouns always begin with ________letters,B
+102,6,Accessing elements is achieved through a process called ________,A
+103,6,Which are indexed by either row or column using a specific name or number?,B
+104,6,What should we use to access elements with a value greater than five?,A
+105,6,Lists can be created using the _______ function.,C
+106,6,First component of the list can be accessed by _____________,A
+107,6,How can we access the first component of the list?,A
+108,6,The first component can be accessed using __________ operator.,B
+109,6,"To extract a sublist, we use _________ brackets.",C
+110,6,The length of a list is ______ to the number of components in that list.,B
+111,6,Which function can be used to determine the names assigned to a list?,A
+112,6, Joining two lists can be achieved either using the _________ function.,A
+113,6,Which function gives the list as output?,A
+114,6,Density function gives output as ________,B
+115,6,Locator function gives output as ___________,B
+116,6,The _________ function returns a list of densities (y) corresponding to bin values (x).,A
+117,6,_______ function returns a vector of the same size as x with the elements arranged in increasing order.,A
+118,6,Which of the following is used for generating sequences?,A
+119,6,"The four most frequently used types of data objects in R are vectors, matrices, data frames and ________",B
+120,6,What is the simplest way of creating the vector?,A
