@@ -1,7 +1,7 @@
 
  ----------Main Procedures---------------
  /*selecting random raws from questions and storing them in exam_Question table 
- ---temp table to generate the name and id for exam to be used in exam table
+
  */
 
 
@@ -34,7 +34,8 @@
 end
 
 --------------------------------------------------------------------------------
- ----will create a function that calculate the score for each question in c# and return the value in score
+-------------------------------Exam Answer---------------------------------------
+
  create proc Exam_Answers2 @ExID int , @stID int ,@answer char(1), @QID int
  as
  begin
@@ -51,7 +52,7 @@ end
 	 values(@stID,@ExID,@QID,@answer,@score)
 	 select 'done'
 end
-
+----------------------------------------------------------------------------------------
  --------------Exam Correction-----------------------------------
 
   create proc Exam_Correction2 @ExID int , @stID int ,@Duration int 
@@ -84,8 +85,8 @@ end
 		select 'your answers have been submitted.'
 end
 
-  --------------------------------------------------------
-  ---------Retrieve all the Questions for specific Exam-----------------
+ --------------------------------------------------------
+ ---------Retrieve all the Questions for specific Exam-----------------
 
  create proc Sp_ExamQuestion2 @examid int
  as 
@@ -98,8 +99,10 @@ end
 
  
   --------------------------------------------------------
-  ---------Retrieve all the answer choice for specific Question (used in loop in C#)-----------------
- alter proc Sp_QuestionAnswers @eid int
+ ---------Retrieve all the answer choice for specific Question (used in loop in C#)-----------------
+ 
+ 
+ create proc Sp_QuestionAnswers @eid int
  as 
  begin
 
@@ -107,10 +110,11 @@ end
  end
 
 
- ---------------------------
+ ---------------------------------------------------------------------
 
  ---------retreive all the question id for specific exam to be uesd in loop in C# to retreive their answers---------------------
- create proc Sp_ExamQuestionID @examid int
+
+create proc Sp_ExamQuestionID @examid int
  as 
  begin
 
@@ -119,15 +123,17 @@ end
  end
 
 
- ---------------------------------------------------
+ ----------------------------------------------------------------------------------
 
  --------------Retreive the courses that the student didnot take their exams----------
- alter proc Schedule_Exam @sid int
+ 
+ 
+create proc Schedule_Exam @sid int
 as
 begin
-select c.CourseName from Course c inner join TrackCourse t 
+	select c.CourseName from Course c inner join TrackCourse t 
 					on  c.CourseID = t.CourseID 
 					inner join Student s 
 					on s.TrackID=t.TrackID and s.StudentID=@sid
 					except
-select c.CourseName from Course c inner join Exam on c.CourseID=Exam.CourseID and StudentID=@sid
+	select c.CourseName from Course c inner join Exam on c.CourseID=Exam.CourseID and StudentID=@sid
