@@ -13,10 +13,7 @@ create table Course (					--####################################################
 )
 
 
-/*
-Nada: Why courses in months not weeks
-Hend: Why tracks 9 months only and shouldnt admin be able to add their duration of their course?
-*/
+
 
 create table Track (					--######################################################
 		TrackID				int Primary Key identity(1,1),
@@ -167,8 +164,6 @@ create table Job											--Not all get a job, statiistics about each type titl
 			CONSTRAINT FK_Student_Job						Foreign Key (StudentID) References Student(StudentID)
 )
 
-alter table Job 
-add CONSTRAINT CHK_Job_Position	Check (Position in ('Trainee', 'Intern', 'Junior', 'Senior', 'Manager' , 'C-Level' ,'Freelancer'))	--Should be radio button options in C#	
 
 Create Table Exam (											
 		ExamID				int ,				--Generated from Procedure
