@@ -1,5 +1,5 @@
 # Graduation-Project
-Examination System 
+
 This is an Examination System for students which allow them to take their exams and see their records .
 The C# app has 3 types of users [Admin , Instructor , Student] .
 The Admin version can access any data , manage old records and add new records .
